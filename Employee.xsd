@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:complexType name="root">
+        <xs:sequence>
+            <xs:element name="emp_no" type="xs:int"/>
+            <xs:element name="birth_date" type="xs:dateTime"/>
+            <xs:element name="first_name" type="xs:string"/>
+            <xs:element name="last_name" type="xs:string"/>
+            <xs:element name="gender" type="xs:string"/>
+            <xs:element name="hire_date" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
